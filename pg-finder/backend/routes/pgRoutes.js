@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const PG = require("../models/PG");
+const PG = require("../models/PG.js");
 
 // Create PG (later you can protect this with auth)
 router.post("/", async (req, res) => {
